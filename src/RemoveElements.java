@@ -20,3 +20,5 @@ public class RemoveElements {
         return left;
     }
 }
+
+//通过首尾指针去解决     **并没有在移除元素的时候保留了元素的顺序**
