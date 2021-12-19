@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 //  左侧元素的所有和等于右侧元素的所有和
-public class FindLeftSumAndRightSum {
+class FindLeftSumAndRightSum {
 
     public static void main(String[] args) {
 
@@ -16,6 +16,7 @@ public class FindLeftSumAndRightSum {
             if (total == sum) {
                 return i;
             }
+            // 通过在总和中去减
             sum -= arr[i];
         }
         return -1;
