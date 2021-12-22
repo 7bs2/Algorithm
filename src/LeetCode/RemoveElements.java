@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class RemoveElements {
 
     // 给你一个数组 和一个值 val，你需要原地移除所有数值等于val 的元素并返回移除后数组的新长度。

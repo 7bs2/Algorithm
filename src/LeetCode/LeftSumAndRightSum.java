@@ -1,3 +1,5 @@
+package LeetCode;
+
 import java.util.Arrays;
 
 //  左侧元素的所有和等于右侧元素的所有和

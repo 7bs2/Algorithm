@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class MoveZeros {
     public static void main(String[] args) {
         int[] arr = new int[] {1, 2, 0, 0,3,4,0,1,};

@@ -1,3 +1,5 @@
+package LeetCode;
+
 public class DeleteOrderArrayItem {
     public static void main(String[] args) {
 
