@@ -32,7 +32,8 @@ public class MergeSort {
         // 将tmp 复制给原数组指针
         int copyIndex = l;
         while (l < mid && iterator <= r ) {
-            if (arr[l] < arr[iterator]) {
+            // 稳定性 步骤     小于等于的时候   优先放前面的元素
+            if (arr[l] <= arr[iterator]) {
                 tmp[tmpIndex++] = arr[l++];
             }else {
                 tmp[tmpIndex++] = arr[iterator++];
