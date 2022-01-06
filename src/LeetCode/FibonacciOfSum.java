@@ -13,6 +13,8 @@ public class FibonacciOfSum {
     }
 
 
+
+    // 利用数组去存储相同的值  减少计算的次数
     public static int fib2(int num) {
         int[] arr = new int[num + 1];
         arr[1] = 1;
