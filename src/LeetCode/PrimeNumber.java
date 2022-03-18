@@ -27,11 +27,12 @@ public class PrimeNumber {
     public static int prime2(int n) {
         boolean[] isPrime = new  boolean[n];
         int count = 0;
+        // 假设全部都是素数
         Arrays.fill(isPrime, true);
         for (int i = 2; i < n; i++) {
             if (isPrime[i]) {
                 count++;
-                // 素数 * 一个数必然是和数4
+                // 素数 * 一个数  必然是和数
                 for (int j = i * 2; j < n; j += i) {
                     isPrime[j] = false;
                 }

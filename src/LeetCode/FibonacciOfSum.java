@@ -6,6 +6,7 @@ public class FibonacciOfSum {
         System.out.println(fib1(25));
     }
 
+    // 斐波拉契数列求和
     // 求数列的第n项   此方法存在多次计算重复值的问题  时间复杂度过高
     public static long fib1(long num) {
        if (num == 1 || num == 2) return 1;

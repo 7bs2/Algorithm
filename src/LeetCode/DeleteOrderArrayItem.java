@@ -6,7 +6,7 @@ public class DeleteOrderArrayItem {
     }
 
 
-    // 删除有序数组的重复项
+    // 删除有序数组的重复项, 返回删除后的长度
     public static int fun (int[] arr) {
         int slow = 0;
         for (int quick = 1; quick < arr.length; quick++) {
