@@ -1,4 +1,4 @@
-package LeetCode;
+package leetCode;
 
 public class LemonadeChange {
 
@@ -17,7 +17,9 @@ public class LemonadeChange {
             if (item == 5) {
                 five++;
             }else if (item == 10) {
-                if (five == 0) return false;
+                if (five == 0) {
+                    return false;
+                }
                 five--;
                 ten++;
             }else if (item == 20) {

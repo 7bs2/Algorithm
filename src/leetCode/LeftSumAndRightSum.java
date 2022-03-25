@@ -1,7 +1,6 @@
-package LeetCode;
+package leetCode;
 
 import java.util.Arrays;
-import java.util.HashMap;
 
 //  左侧元素的所有和等于右侧元素的所有和
 class FindLeftSumAndRightSum {

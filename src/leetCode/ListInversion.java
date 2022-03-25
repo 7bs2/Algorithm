@@ -1,4 +1,4 @@
-package LeetCode;
+package leetCode;
 
 public class ListInversion {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LeetCode;
+package leetCode;
 
 public class FibonacciOfSum {
     public static void main(String[] args) {
@@ -9,7 +9,9 @@ public class FibonacciOfSum {
     // 斐波拉契数列求和
     // 求数列的第n项   此方法存在多次计算重复值的问题  时间复杂度过高
     public static long fib1(long num) {
-       if (num == 1 || num == 2) return 1;
+       if (num == 1 || num == 2) {
+           return 1;
+       }
        return fib1(num - 1) + fib1(num - 2);
     }
 
@@ -24,7 +26,9 @@ public class FibonacciOfSum {
     }
 
     private static int fun(int[] arr, int num) {
-        if (num == 1 || num == 2) return 1;
+        if (num == 1 || num == 2) {
+            return 1;
+        }
         if(arr[num] != 0) {
             return arr[num];
         }else {

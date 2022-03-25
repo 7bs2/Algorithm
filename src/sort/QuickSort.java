@@ -1,4 +1,4 @@
-package Sort;
+package sort;
 
 import java.util.Arrays;
 
@@ -11,7 +11,9 @@ public class QuickSort {
     }
 
    public static void quickSort(int[] arr, int l, int r) {
-        if (l > r) return;
+        if (l > r) {
+            return;
+        }
         int x = l;
         int y = r;
         int base = arr[x];

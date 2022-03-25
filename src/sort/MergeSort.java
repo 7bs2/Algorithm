@@ -1,4 +1,4 @@
-package Sort;
+package sort;
 
 import java.util.Arrays;
 
@@ -11,7 +11,9 @@ public class MergeSort {
 
     private static void mergeSort(int[] arr, int l, int r) {
         // 递归结束
-        if (l >= r) return;
+        if (l >= r) {
+            return;
+        }
 
         // 二路递归
         int mid = (l + r) / 2;

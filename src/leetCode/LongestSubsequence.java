@@ -1,4 +1,4 @@
-package LeetCode;
+package leetCode;
 
 // 最长连续递增子序列的长度
 public class LongestSubsequence {

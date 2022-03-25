@@ -1,4 +1,4 @@
-package LeetCode;
+package leetCode;
 
 public class KMP {
     public static void main(String[] args) {
@@ -23,7 +23,9 @@ public class KMP {
     }
 
     public static  int search(String mode, String str) {
-        if (str.length() == 0) return 0;
+        if (str.length() == 0) {
+            return 0;
+        }
         int[] next = new int[str.length()];
         getNext(next, str);
         int j = 0;

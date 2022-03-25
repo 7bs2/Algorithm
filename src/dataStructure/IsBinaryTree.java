@@ -1,4 +1,4 @@
-package DataStructure;
+package dataStructure;
 
 public class IsBinaryTree {
 
@@ -25,8 +25,12 @@ public class IsBinaryTree {
             return true;
         }
 
-        if (root.left != null && root.val < root.left.val) return false;
-        if (root.right != null && root.val > root.right.val) return false;
+        if (root.left != null && root.val < root.left.val) {
+            return false;
+        }
+        if (root.right != null && root.val > root.right.val) {
+            return false;
+        }
 
         return isBinaryTree(root.left) && isBinaryTree(root.right);
     }
