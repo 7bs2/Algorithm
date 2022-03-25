@@ -6,7 +6,7 @@ public class KMP {
     }
 
     public static  void getNext(int[] next, String str) {
-        int j = 0;
+        int j = 0;   // 前缀末尾
         next[0] = 0;
         for (int i = 1; i < str.length(); i++) {
 
