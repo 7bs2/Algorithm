@@ -3,7 +3,7 @@ package leetCode;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr = new int[]{1, 2, 3, 4, 4, 4, 5, 6, 7};
-        System.out.println(left_bound(arr, 4) + "ppp");
+        System.out.println(leftBound(arr, 4) + "ppp");
     }
 
     // 典型的二分搜索    搜索区间
@@ -24,7 +24,7 @@ public class BinarySearch {
 
 
     // 寻找左边界
-    public static int left_bound(int[] nums, int target) {
+    public static int leftBound(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left <= right) {
             int mid = left + (right - left) / 2;
@@ -46,7 +46,7 @@ public class BinarySearch {
     }
 
 
-    public static int right_bound(int[] nums, int target) {
+    public static int rightBound(int[] nums, int target) {
         int left = 0, right = nums.length - 1;
         while (left < right) {
             int mid = left + (right - left) / 2;
